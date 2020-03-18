@@ -14,7 +14,7 @@ The project is coded in **Spark Java** , **Python** and **Docker** is used.
 * Second Part 
    * Set up Hadoop on Docker and run our app on it.
   
-## Run Instractions
+## Run Docker Instractions
 _--------------Basic Steps-------------_
  
  - docker-compose up -d
