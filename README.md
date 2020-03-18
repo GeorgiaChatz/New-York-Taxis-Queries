@@ -1,4 +1,4 @@
-# New York Taxis Queries
+## New York Taxis Queries
 
 Implementation of a system which uses New York taxi data and answering Batch &amp; Streaming queries using Spark and Hadoop Cluster.
 
@@ -6,21 +6,21 @@ It is implementation of a project in Distributed Systems, Big Data and Cloud Com
 
 The project is coded in **Spark Java** , **Python** and **Docker** is used.
 
-# Project Informations 
+## Project Informations 
 
-*First Part
-   *Execution of 8 batch/streaming queries in a distributed environment (Hadoop and Spark cluster).
+* First Part
+   * Execution of 8 batch/streaming queries in a distributed environment (Hadoop and Spark cluster).
    
-*Second Part 
-   *Set up Hadoop on Docker and run our app on it.
+* Second Part 
+   * Set up Hadoop on Docker and run our app on it.
   
-# Run Instractions
+## Run Instractions
 _--------------Basic Steps-------------_
  
- docker-compose up -d
- docker exec -it namenode bash #namenode to container name , -it 
- docker cp fares.csv namenode:/
- docker cp SparkHadoop-1.0-SNAPSHOT.jar namenode:/ 
+ - docker-compose up -d
+ - docker exec -it namenode bash #namenode to container name , -it 
+ - docker cp fares.csv namenode:/
+ - docker cp SparkHadoop-1.0-SNAPSHOT.jar namenode:/ 
 
 _--------------Installs-------------_
   
